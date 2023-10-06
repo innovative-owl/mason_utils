@@ -1,0 +1,22 @@
+name: mason_utils
+description: A package containing utilities for Mason.
+version: 0.0.1
+# homepage:
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  collection: ^1.17.2
+  flutter:
+    sdk: flutter
+  mason: ^0.1.0-dev.51
+  pubspec_yaml: ^3.1.0
+  pub_updater: ^0.3.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter: null
